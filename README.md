@@ -8,8 +8,6 @@ Built for the **Slack Agent Builder Challenge 2026**: Agent for Good track.
 
 
 
----
-
 ## The Problem
 
 Every time someone posts "team lunch at Karim's, who's in?" in Slack, a person with celiac disease faces an impossible choice: stay quiet and gamble on finding something safe, or announce a medical condition they never wanted to share at work.
