@@ -22,15 +22,23 @@ SafeBite eliminates that choice.
 
 **Food Query**: Ask SafeBite anything in the Chat panel. "Is biryani safe?" "Can I eat nihari?" SafeBite searches the workspace's Slack history for past team food discussions and returns a personalised verdict with a colored Block Kit response.
 
+![SafeBite Banner](https://github.com/syedzubeen/safebite/blob/d89bf79f3541162b138af09658e46333e1f862a5/assets/5.banner_safebite.gif)
+
 **Restaurant Scanner**: `/safebite scan Karim's Delhi` fetches the live menu and returns a full safety report with safe dishes, dishes to avoid, and cuisine-specific tips.
+
+![SafeBite Banner](https://github.com/syedzubeen/safebite/blob/main/assets/4.menu-scan.gif)
 
 **Ingredient Label Scanner**: Upload a photo of any ingredient label. Gemini Vision reads every ingredient and flags hidden gluten sources like hing, maida, suji, barley malt, and modified starch.
 
 **Food Photo Analysis**: Upload a photo of any dish. SafeBite identifies it and assesses safety with a confidence score.
 
+![SafeBite Photo Analysis](https://github.com/syedzubeen/safebite/blob/main/assets/2.ingridients-scan.gif)
+
 **Nearby Gluten-Free Finder**: When nothing is safe, SafeBite searches Google Maps for gluten-friendly restaurants within 5km, correctly geocoded to the user's city.
 
 **Weekly Digest via Gmail**: A personalised weekly email sent via a Gmail MCP server that SafeBite connects to as an MCP client.
+
+![SafeBite Digest](https://github.com/syedzubeen/safebite/blob/main/assets/1.slack-digest.gif)
 
 **App Home Dashboard**: Profile, protection status, and quick action buttons in a dedicated Slack Home tab.
 
