@@ -151,7 +151,7 @@ The user's dietary condition is never mentioned publicly. No channel replies, no
 
 ## License
 
-[MIT](LICENSE). This project is open source and free to use, modify, and distribute.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
