@@ -2,7 +2,7 @@
 
 > A silent Slack agent that privately protects people with celiac disease during team lunches by scanning live menus and alerting them before anyone else knows.
 
-Built for the **Slack Agent Builder Challenge 2026** — Agent for Good track.
+Built for the **Slack Agent Builder Challenge 2026**: Agent for Good track.
 
 ---
 
@@ -16,21 +16,21 @@ SafeBite eliminates that choice.
 
 ## What SafeBite Does
 
-**Silent Guardian** — Monitors Slack channels for food mentions. When a colleague posts about lunch, SafeBite privately DMs at-risk users with a live menu scan, safe dishes, what to avoid, and nearby gluten-free alternatives if nothing is safe. Nobody in the channel knows.
+**Silent Guardian**: Monitors Slack channels for food mentions. When a colleague posts about lunch, SafeBite privately DMs at-risk users with a live menu scan, safe dishes, what to avoid, and nearby gluten-free alternatives if nothing is safe. Nobody in the channel knows.
 
-**Food Query** — Ask SafeBite anything in the Chat panel. "Is biryani safe?" "Can I eat nihari?" SafeBite searches the workspace's Slack history for past team food discussions and returns a personalised verdict with a colored Block Kit response.
+**Food Query**: Ask SafeBite anything in the Chat panel. "Is biryani safe?" "Can I eat nihari?" SafeBite searches the workspace's Slack history for past team food discussions and returns a personalised verdict with a colored Block Kit response.
 
-**Restaurant Scanner** — `/safebite scan Karim's Delhi` fetches the live menu and returns a full safety report with safe dishes, dishes to avoid, and cuisine-specific tips.
+**Restaurant Scanner**: `/safebite scan Karim's Delhi` fetches the live menu and returns a full safety report with safe dishes, dishes to avoid, and cuisine-specific tips.
 
-**Ingredient Label Scanner** — Upload a photo of any ingredient label. Gemini Vision reads every ingredient and flags hidden gluten sources like hing, maida, suji, barley malt, and modified starch.
+**Ingredient Label Scanner**: Upload a photo of any ingredient label. Gemini Vision reads every ingredient and flags hidden gluten sources like hing, maida, suji, barley malt, and modified starch.
 
-**Food Photo Analysis** — Upload a photo of any dish. SafeBite identifies it and assesses safety with a confidence score.
+**Food Photo Analysis**: Upload a photo of any dish. SafeBite identifies it and assesses safety with a confidence score.
 
-**Nearby Gluten-Free Finder** — When nothing is safe, SafeBite searches Google Maps for gluten-friendly restaurants within 5km, correctly geocoded to the user's city.
+**Nearby Gluten-Free Finder**: When nothing is safe, SafeBite searches Google Maps for gluten-friendly restaurants within 5km, correctly geocoded to the user's city.
 
-**Weekly Digest via Gmail** — A personalised weekly email sent via a Gmail MCP server that SafeBite connects to as an MCP client.
+**Weekly Digest via Gmail**: A personalised weekly email sent via a Gmail MCP server that SafeBite connects to as an MCP client.
 
-**App Home Dashboard** — Profile, protection status, and quick action buttons in a dedicated Slack Home tab.
+**App Home Dashboard**: Profile, protection status, and quick action buttons in a dedicated Slack Home tab.
 
 ---
 
@@ -46,12 +46,12 @@ SafeBite eliminates that choice.
 
 ## Tech Stack
 
-- **Bolt for Python** — Slack app framework, Socket Mode
-- **Gemini 2.5 Flash** — Food safety reasoning, vision (labels and photos), structured JSON output
-- **SerpAPI** — Dual restaurant menu search, Google Maps nearby discovery
-- **Slack Block Kit** — Colored verdict banners (green/yellow/red) for all responses
-- **FastMCP** — Gmail MCP server for email digest delivery
-- **Python** — smtplib, httpx, asyncio
+- **Bolt for Python**: Slack app framework, Socket Mode
+- **Gemini 2.5 Flash**: Food safety reasoning, vision (labels and photos), structured JSON output
+- **SerpAPI**: Dual restaurant menu search, Google Maps nearby discovery
+- **Slack Block Kit**: Colored verdict banners (green/yellow/red) for all responses
+- **FastMCP**: Gmail MCP server for email digest delivery
+- **Python**: smtplib, httpx, asyncio
 
 ---
 
@@ -131,17 +131,17 @@ The Slack CLI injects `SLACK_BOT_TOKEN` and `SLACK_APP_TOKEN` automatically.
 
 SafeBite has explicit knowledge of hidden gluten risks in Indian cuisine that most tools miss:
 
-- **Hing (asafoetida)** — almost always contains wheat flour as anti-caking agent
-- **Nihari** — uses maida as a standard thickening agent
-- **Birista** (fried onions in biryani) — often dusted with flour before frying
-- **Shami and seekh kebab** — use flour-based binders as a standard recipe step
-- **Korma** — gravies can use wheat flour alongside nut-paste base
+- **Hing (asafoetida)**: almost always contains wheat flour as anti-caking agent
+- **Nihari**: uses maida as a standard thickening agent
+- **Birista** (fried onions in biryani): often dusted with flour before frying
+- **Shami and seekh kebab**: use flour-based binders as a standard recipe step
+- **Korma**: gravies can use wheat flour alongside nut-paste base
 
 ---
 
 ## Privacy by Design
 
-The user's dietary condition is never mentioned publicly. No channel replies, no public alerts, no announcements. SafeBite operates silently — a private DM is the only interaction the at-risk user sees.
+The user's dietary condition is never mentioned publicly. No channel replies, no public alerts, no announcements. SafeBite operates silently: a private DM is the only interaction the at-risk user sees.
 
 ---
 
@@ -151,5 +151,5 @@ MIT
 
 ---
 
-*Built for the Slack Agent Builder Challenge 2026 — Agent for Good track.*
+*Built for the Slack Agent Builder Challenge 2026: Agent for Good track.*
 *For people with celiac disease navigating the same invisible challenge every day.*
