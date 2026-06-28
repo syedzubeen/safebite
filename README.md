@@ -151,7 +151,7 @@ The user's dietary condition is never mentioned publicly. No channel replies, no
 
 ## License
 
-[MIT](LICENSE). Free to use, fork, and build on. If SafeBite helps someone with celiac disease eat safely at a team lunch, that is enough.
+[MIT](LICENSE). This project is open source and free to use, modify, and distribute.
 
 ---
 
