@@ -32,6 +32,8 @@ SafeBite eliminates that choice.
 
 **App Home Dashboard**: Profile, protection status, and quick action buttons in a dedicated Slack Home tab.
 
+![SafeBite Arch](https://github.com/syedzubeen/safebite/blob/2ee00c307ebaa8449ee6f75a076370855420681a/assets/architecture-diagram.png)
+
 ---
 
 ## Hackathon Technologies Used
