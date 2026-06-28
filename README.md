@@ -4,6 +4,10 @@
 
 Built for the **Slack Agent Builder Challenge 2026**: Agent for Good track.
 
+![SafeBite Banner](https://github.com/syedzubeen/safebite/blob/d89bf79f3541162b138af09658e46333e1f862a5/assets/5.banner_safebite.gif)
+
+
+
 ---
 
 ## The Problem
