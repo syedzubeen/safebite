@@ -1,0 +1,76 @@
+{
+  "display_information": {
+    "name": "SafeBite",
+    "description": "Your silent food safety guardian for celiac disease and diabetes",
+    "background_color": "#2E7D32"
+  },
+  "features": {
+    "app_home": {
+      "home_tab_enabled": true,
+      "messages_tab_enabled": true,
+      "messages_tab_read_only_enabled": false
+    },
+    "assistant_view": {
+      "assistant_description": "Your silent food safety guardian for celiac disease and diabetes. Ask me if any food is safe, scan restaurant menus, or upload ingredient labels.",
+      "is_enabled": true
+    },
+    "bot_user": {
+      "display_name": "SafeBite",
+      "always_online": true
+    },
+    "slash_commands": [
+      {
+        "command": "/safebite",
+        "description": "Manage your SafeBite profile and settings",
+        "usage_hint": "profile | scan [restaurant]",
+        "should_escape": false
+      },
+      {
+        "command": "/safebite-digest",
+        "description": "Trigger the SafeBite weekly digest (admin/test)",
+        "usage_hint": "",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "assistant:write",
+        "channels:history",
+        "search:read.public",
+        "channels:read",
+        "chat:write",
+        "commands",
+        "files:read",
+        "groups:history",
+        "groups:read",
+        "im:history",
+        "im:read",
+        "im:write",
+        "mpim:history",
+        "users:read",
+        "users:read.email"
+      ]
+    }
+  },
+  "settings": {
+    "event_subscriptions": {
+      "bot_events": [
+        "app_home_opened",
+        "assistant_thread_context_changed",
+        "assistant_thread_started",
+        "message.channels",
+        "message.groups",
+        "message.im",
+        "message.mpim"
+      ]
+    },
+    "interactivity": {
+      "is_enabled": true
+    },
+    "org_deploy_enabled": true,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}

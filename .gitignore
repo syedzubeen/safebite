@@ -1,0 +1,29 @@
+# Python
+.venv/
+env*/
+__pycache__/
+*.pyc
+
+# Environment — never commit API keys
+.env
+
+# Slack credentials
+.slack/credentials.json
+
+# Database — user profiles contain personal health data
+db/profiles.json
+
+# Node
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+
+# Build artifacts
+SafeBite.pptx
+safebite_deck.js
+DEVPOST.md
