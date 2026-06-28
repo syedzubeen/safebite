@@ -24,6 +24,4 @@ package-lock.json
 .vscode/
 
 # Build artifacts
-SafeBite.pptx
 safebite_deck.js
-DEVPOST.md
