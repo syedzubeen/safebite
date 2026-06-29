@@ -8,6 +8,20 @@ Built for the **Slack Agent Builder Challenge 2026**: Agent for Good track.
 
 
 
+## Table of Contents
+
+- [The Problem](#the-problem)
+- [What SafeBite Does](#what-safebite-does)
+- [Hackathon Technologies Used](#hackathon-technologies-used)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Setup](#setup)
+- [Indian Cuisine Depth](#indian-cuisine-depth)
+- [Privacy by Design](#privacy-by-design)
+- [License](#license)
+
+---
+
 ## The Problem
 
 Every time someone posts "team lunch at Karim's, who's in?" in Slack, a person with celiac disease faces an impossible choice: stay quiet and gamble on finding something safe, or announce a medical condition they never wanted to share at work.
